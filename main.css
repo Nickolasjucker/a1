@@ -1,0 +1,58 @@
+@charset "utf-8";
+body {
+	margin: 0px 0px 0px 0px;
+}
+.background {
+	position:fixed;
+	z-index: -100;
+	height:auto;
+	left:0px;
+	top:0px;
+	width:100%;
+	min-height: 100%;
+}
+.mainbody {
+	width: 960px;
+	height: 1000px;
+	background-color: aliceblue;
+	background-image:url(Images/beachNetBanner.jpg) ;
+	background-repeat:no-repeat;
+	margin-right: auto;
+	margin-left:auto;
+}
+.mainlogo {
+	width:299px;
+	height:160px;
+	float:left;
+	margin-right: auto;
+	margin-left: 50px;
+}
+.navbar{
+	float:left;
+	border:2px solid black;
+	width: 700px;
+	height:26px;
+	margin: 50px 122px;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li {
+	float:left;
+}
+a:link,a:visited {
+	display:block;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-color: lightskyblue;
+	width:167px;
+	text-align:center;
+	padding:4px;	
+}
+a:hover,a:active {
+	background-color: blue;
+	
+}
