@@ -13,7 +13,8 @@ body {
 }
 .mainbody {
 	width: 960px;
-	height: 1000px;
+	min-height: 600px;
+	overflow: hidden;
 	background-color: aliceblue;
 	background-image:url(Images/beachNetBanner.jpg) ;
 	background-repeat:no-repeat;
@@ -43,16 +44,111 @@ ul {
 li {
 	float:left;
 }
-a:link,a:visited {
+.navbar a:link,a:visited {
 	display:block;
 	font-weight: bold;
 	color:#FFFFFF;
-	background-color: lightskyblue;
+	background-color: #287abc;
 	width:167px;
 	text-align:center;
 	padding:4px;	
 }
-a:hover,a:active {
-	background-color: blue;
+.navbar a:hover,a:active {
+	background-color:#029edd;
 	
+}
+.signup {
+	float:right;
+	padding-right: 20px;
+	padding-top: 50px;
+}
+.content {
+	float: left;
+	width: 940px;
+	margin-bottom: 5px;
+	background-color: white;
+	min-height: 200px;
+	overflow: hidden;
+	margin-left: 8px;
+	border:2px solid black;
+	
+}
+#homeimagecontainer {
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	
+}
+h1 {
+	text-align: center;
+	color: #002850;	
+}
+.content p {
+	line-height: 1em;
+}
+.webfooter {
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	width: 960px;
+	background-color: white;
+}
+.webfooter p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align:center;
+}
+.signup h2 {
+	text-align: center;
+	color: white;
+	line-height: 0;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.contenttextbox {
+	background-color:#f1eee4;
+	float: none;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	
+}
+#leaderboard {
+	background-color:#f1eee4;
+	float: none;
+	overflow: hidden;
+	margin-top:10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.linktext {
+	background-color:#f1eee4;
+	float: none;
+	overflow: hidden;
+	line-height: 0;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.contacttext {
+	background-color:#f1eee4;
+	float: none;
+	overflow: hidden;
+	line-height: 0;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
 }
