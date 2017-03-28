@@ -27,6 +27,7 @@ body {
 	float:left;
 	margin-right: auto;
 	margin-left: 50px;
+	
 }
 .navbar{
 	float:left;
@@ -59,6 +60,7 @@ li {
 }
 .signup {
 	float:right;
+	overflow: hidden;
 	padding-right: 20px;
 	padding-top: 50px;
 }
@@ -73,7 +75,7 @@ li {
 	border:2px solid black;
 	
 }
-#homeimagecontainer {
+.contentimagecontainer {
 	float:left;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -83,9 +85,6 @@ li {
 h1 {
 	text-align: center;
 	color: #002850;	
-}
-.content p {
-	line-height: 1em;
 }
 .webfooter {
 	float:none;
@@ -98,16 +97,6 @@ h1 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align:center;
-}
-.signup h2 {
-	text-align: center;
-	color: white;
-	line-height: 0;
-	text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
 }
 .contenttextbox {
 	background-color:#f1eee4;
@@ -130,25 +119,78 @@ h1 {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-.linktext {
+#linktext {
 	background-color:#f1eee4;
 	float: none;
 	overflow: hidden;
 	line-height: 0;
-	margin-right: 10px;
+	width: 500px;
+	margin-right: auto;
+	margin-left:auto;
 	margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 10px;
 }
-.contacttext {
+#contacttext {
 	background-color:#f1eee4;
 	float: none;
 	overflow: hidden;
+	width: 500px;
 	line-height: 0;
-	margin-right: 10px;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top: 10px;
+	padding:10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+.content a:visited {
+	color: purple;
+}
+.content a:hover,a:active {
+	background-color: #f1eee4;
+}
+#leaderboard tr {
+	text-align: center;
+}
+#linktext p {
+	line-height: 1em;
+}
+.registerbox {
+	background-color:#f1eee4;
+	float: left;
+	overflow: hidden;
+	width: 500px;
+	margin-left:10px;
 	margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
 	margin-bottom: 10px;
+}
+.registerimage {
+	float:right;
+	margin: 10px 10px 10px 10px;
+	
+}
+#registerseperate input {
+	padding-left: 10px;
+	margin-right: 60px;
+	height: 20px;
+	width: 180px;
+}
+a img{
+	display: block;
+}
+#registerseperate tr {
+	text-align: right;
+}
+input {
+margin-right: 60px;
+}
+.registerbox p {
+	text-align: center;
+}
+#contacttext td {
+	text-align: left;
 }
