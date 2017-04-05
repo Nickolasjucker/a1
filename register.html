@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Slammers Beach Volleyball - About</title>
+<title>Slammers Beach Volleyball - Register</title>
 <link href="main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -30,11 +31,11 @@ function MM_swapImage() { //v3.0
 </head>
 
 <body onLoad="MM_preloadImages('Images/callactive.png')">
-<div class="background"><img src="Images/sandBackground.jpg" width="2272" height="1704" alt="sand background"/></div>
+<div class="background"><img src="Images/sandBackground.jpg" width="2272" height="1704" alt="Sand Background"/></div>
 <div class="mainbody">
 <div class="signup">
-	 <a href="register.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('signup','','Images/callactive.png',1)"><img src="Images/callinactive.png" alt="register" width="160" height="100" id="signup"></a></div>
-  <div class="mainlogo"><a href="index.html"><img src="Images/logo.png" width="299" height="160" alt="Logo"/></a></div>
+	 <a href="register.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('signup','','Images/callactive.png',1)"><img src="Images/callinactive.png" alt="register" width="160" height="100" id="Register"></a></div>
+  <div class="mainlogo"><a href="index.html"><img src="Images/logo.png" width="299" height="160" alt="Slammers Logo"/></a></div>
 <div class="navbar">
 	<ul>
 		<li><a href="about.html">About</a></li>
@@ -44,7 +45,7 @@ function MM_swapImage() { //v3.0
 	</ul>
 </div>
 <div class="content">
-<div class="registerimage"><img src="Images/registersidepic.jpg" width="390" height="590" alt="volleyball image"/></div>
+<div class="registerimage"><img src="Images/registersidepic.jpg" width="390" height="590" alt="Join the fun today!"/></div>
 <div class="registerbox">
 <h1>Register</h1>
 <p>Few steps away before joining the fun!</p>	
@@ -66,11 +67,30 @@ function MM_swapImage() { //v3.0
     </tr>
     <tr>
       <td><label for="day">Choose competition day:</label></td>
-      <td><input type="day" name="day" id="day" placeholder ="Monday, Tuesday..." required="required"></td>
+      <td><select name="day" id="day" required="required">
+    <option value="Monday"> Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday</option>
+    <option value="Friday">Friday</option>
+    <option value="Saturday">Saturday</option>
+    <option value="Sunday">Sunday</option>
+	</select></td>
     </tr>
     <tr>
       <td><label for="time">Choose competition time:</label></td>
       <td><input type="text" name="time" id="time" placeholder ="Morning or Afternoon" required="required"></td>
+    </tr>
+    <tr>
+      <td><label for="PeopleAmount">Number of players joining you:</label></td>
+      <td><select name="PeopleAmount" id="PeopleAmount" required="required">
+    <option value="Zero"> Zero</option>
+    <option value="One">One</option>
+    <option value="Two">Two</option>
+    <option value="Three">Three</option>
+    <option value="Four">Four</option>
+    <option value="Greater than five">Five or greater</option>
+	</select></td>
     </tr>
  </tbody>
 </table>   

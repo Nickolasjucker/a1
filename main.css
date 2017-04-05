@@ -1,6 +1,7 @@
 @charset "utf-8";
 body {
 	margin: 0px 0px 0px 0px;
+	font-family: 'roboto';
 }
 .background {
 	position:fixed;
@@ -36,18 +37,18 @@ body {
 	height:26px;
 	margin: 50px 122px;
 }
-ul {
+.navbar ul {
 	list-style-type: none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
 }
-li {
+.navbar li {
 	float:left;
 }
 .navbar a:link,a:visited {
 	display:block;
-	font-weight: bold;
+	font-weight:lighter;
 	color:#FFFFFF;
 	background-color: #287abc;
 	width:167px;
@@ -77,9 +78,7 @@ li {
 }
 .contentimagecontainer {
 	float:left;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
+	margin: 10px 10px 10px 10px;
 	
 }
 h1 {
@@ -97,17 +96,17 @@ h1 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align:center;
+	font-size: 14px;
 }
 .contenttextbox {
 	background-color:#f1eee4;
 	float: none;
 	overflow: hidden;
-	margin-right: 10px;
-	margin-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-bottom: 10px;
-	
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+}
+.boldtext {
+	font-weight:bold;
 }
 #leaderboard {
 	background-color:#f1eee4;
@@ -123,10 +122,10 @@ h1 {
 	background-color:#f1eee4;
 	float: none;
 	overflow: hidden;
-	line-height: 0;
-	width: 500px;
+	line-height: 1em;
+	width: 650px;
 	margin-right: auto;
-	margin-left:auto;
+	margin-left: auto;
 	margin-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -137,7 +136,7 @@ h1 {
 	float: none;
 	overflow: hidden;
 	width: 500px;
-	line-height: 0;
+	line-height: 1em;
 	margin-right: auto;
 	margin-left:auto;
 	margin-top: 10px;
@@ -179,11 +178,18 @@ h1 {
 	height: 20px;
 	width: 180px;
 }
+#registerseperate select {
+	padding-left: 10px;
+	margin-right: 60px;
+	height: 25px;
+	width: 194px;
+}
 a img{
 	display: block;
 }
 #registerseperate tr {
 	text-align: right;
+	font-size: 15px;
 }
 input {
 margin-right: 60px;
@@ -193,4 +199,17 @@ margin-right: 60px;
 }
 #contacttext td {
 	text-align: left;
+}
+.image2 {
+	float:left;
+	clear:both;
+	padding-top: 200px;
+}
+.image1 {
+	float:left;
+	clear:both;
+}
+.contentimagecontainer p {
+	font-size: 10px;
+	text-align: right;
 }
